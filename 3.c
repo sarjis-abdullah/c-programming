@@ -1,5 +1,5 @@
-# include <stdio.h>
-# include <math.h>
+#include <stdio.h>
+#include <math.h>
 int main()
 {
     // int width =2, height=3;
@@ -8,7 +8,7 @@ int main()
 
     // printf("Give a height: ");
     // scanf("%f", &height);
-int power = pow(2,3);
-    printf("Area is: %d\n", power);
+    double power = pow(20, 10);
+    printf("Area is: %f\n", power);
     return 0;
 }

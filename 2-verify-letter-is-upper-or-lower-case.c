@@ -1,8 +1,7 @@
-# include <stdio.h>
+#include <stdio.h>
 int main()
 {
     char c;
-    // printf("Give a width: ");
     scanf("%c", &c);
 
     if (c >= 'A' && c <= 'Z')
@@ -11,15 +10,12 @@ int main()
     }
     else if (c >= 'a' && c <= 'z')
     {
-                printf("lower case");
-
+        printf("lower case");
     }
     else
     {
-                printf("Not founde in letter");
-
+        printf("Not founde in letter");
     }
-    
 
     // printf("Give a height: ");
     // scanf("%f", &height);

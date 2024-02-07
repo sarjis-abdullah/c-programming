@@ -2,13 +2,8 @@
 #include <math.h>
 
 int main() {
-    int n =5, count = 1;
-    // int copyN = n;
-    // while (copyN != 0)
-    // {
-    //     copyN /= 10;
-    //     count++;
-    // }
+    int n =3, count = 1;
+    
     int sum = 1;
     for (int i = 1; i <= n; i++)
     {
